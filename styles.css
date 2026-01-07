@@ -1,0 +1,51 @@
+body{
+    background: black;
+    color: white;
+}
+
+/* #display-area{
+    
+} */
+/* 
+#inputLabel{
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 600;
+} */
+
+/* #string{
+    width: 30vw;
+    background: pink;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    padding: 1px; */
+
+/* } 
+#check-btn{
+     margin: auto;
+    background: black;
+    color: red;
+    width: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    border: 3px solid maroon; */
+/* }
+#check-btn:hover{
+    background: maroon;
+    color: white;
+}
+#check-btn:active{
+    background: lightgreen;
+    color: blue;
+    font-weight: 600;
+}
+
+#display-text{
+    background: yellow;
+    color: green;
+    font-weight: 700;
+    text-align: center;
+} */
