@@ -12,6 +12,10 @@ form{
     grid-template-columns: 40% 30%;
 }
 
+li{
+    list-style: none;
+}
+
 #main-display-2{
     margin: auto;
     height: 40vh;
