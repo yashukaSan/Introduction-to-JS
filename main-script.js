@@ -1,7 +1,7 @@
 import { area, clearArea, decorateForB1, assignElements, checker } from './components/palindrome.js';
 import { removeElements3, assignElements3, decorate_area_3, char_checker } from './components/vowels-consonants-count.js';
 import { assignElements4, removeElements4, generate_random, decorateElements4 } from './components/randomNo.js';
-import { assignElement2, decorate_2, clickOperations } from './components/calculator.js';
+import { assignElement2, clearArea2, decorate_2, clickOperations } from './components/calculator.js';
 
 let isB1Render = false;
 let isB2Render = false;
@@ -16,9 +16,8 @@ const clearBtn = document.getElementById('clearAll');
 
 function clearDisplay(){
     if (isB1Render) clearArea();
-    // if(isB3Render) ();
+    if (isB2Render) clearArea2();
     if (isB3Render) removeElements3();
-
     if (isB4Render) removeElements4();
 
     area.removeAttribute('style');
@@ -34,7 +33,6 @@ clearBtn.addEventListener('click', ()=>{
 
 
 btn1.addEventListener('click', ()=>{
-    // if()
     clearDisplay();
     if (!isB1Render){
         assignElements();
@@ -78,24 +76,10 @@ btn4.addEventListener('click', ()=>{
 
 btn2.addEventListener('click', () => {
     if (!isB2Render){
-        //clearDiplsay();
+        clearDisplay();
         assignElement2();
         clickOperations();
         decorate_2();
     }
-
-
     isB2Render = true;
-    // const checkBtn = document.getElementById('check-btn');
-    // checkBtn.addEventListener('click', () => {
-    //     document.getElementById('display-text').textContent = checker(document.getElementById('string').value);
-    // });
-
 });
-
-// window.onclick = () => {
-    
-// }
-
-
-

@@ -137,7 +137,6 @@ export function assignElement2(){
 
 }
 
-
 export function clickOperations() {
     for (let i = 0; i < 20; i++) {
         if (i !== 15 && i !== 18 && i !== 19) {
@@ -188,6 +187,18 @@ export function clickOperations() {
     }
 }
 
+export function clearArea2(){
+    const elementsIDList = [...count,
+        'multiply', 'divide', 'enter', 
+        'bOpen', 'bClose', 'input-area',
+        'output-area', 'main-display-2'
+    ];
+
+    elementsIDList.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.remove();
+    });
+}
 function solveExpression(expr) {
     try{
         return Function('"use strict"; return (' + expr + ')')();
