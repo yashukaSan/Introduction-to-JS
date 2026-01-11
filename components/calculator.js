@@ -215,7 +215,7 @@ export function decorate_2(){
         Object.assign(document.getElementById(num).style,{
             'grid-area' : `${num}`
         });
-    })
+    });
 
     Object.assign(document.getElementById('bOpen').style, {
         'grid-area': 'l-brac'

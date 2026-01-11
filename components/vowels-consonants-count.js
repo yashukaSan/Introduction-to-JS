@@ -66,6 +66,8 @@ export function char_checker(word){
 export function decorate_area_3(){
     Object.assign(document.getElementById('display-area').style,{
         background: 'red',
+        margin: 'auto',
+        width: '60vw',
         'font-size': '24px',
         display: 'grid',
         gap: '25px',
@@ -74,12 +76,16 @@ export function decorate_area_3(){
     });
 
     Object.assign(document.getElementById('inputLabel').style, {
+        margin: 'auto',
+        width: '60vw', 
         'font-variant' : 'small-caps'
     });
 
 
     Object.assign(document.getElementById('parent-div').style, {
         display: 'flex',
+        width: '50vw',
+        margin: 'auto',
         'justify-content' : 'center',
         border: '2px ridge snow',
         padding: '30px',
@@ -92,7 +98,7 @@ export function decorate_area_3(){
         'margin-right' : '10vw',
         padding: '10px',
         'border-radius': '10vh',
-        width: '20vw',
+        width: '40%',
         'text-align': 'center',
         color: 'black',
         'font-weight': '600',
@@ -104,7 +110,7 @@ export function decorate_area_3(){
         'margin-left': '10vw',
         padding: '10px',
         'border-radius': '10vh',
-        width: '20vw',
+        width: '40%',
         'text-align': 'center',
         color: 'black',
         'font-weight': '600',

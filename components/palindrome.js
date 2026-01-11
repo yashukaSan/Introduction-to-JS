@@ -57,6 +57,8 @@ export function checker(spell){
 export function decorateForB1(){
 
     Object.assign(area.style, {
+        width: '40vw',
+        margin: 'auto',
         background: "black",
         color: "snow",
         border: "2px solid grey",
@@ -72,7 +74,7 @@ export function decorateForB1(){
         display: 'grid',
         'justify-content': 'center',
         gap: '20px',
-        'font-size': '18px',
+        'font-size': '1.75rem',
         'font-weight': '600'
     });
     Object.assign(document.getElementById('check-btn').style, {
@@ -80,6 +82,7 @@ export function decorateForB1(){
         background: 'black',
         color: 'red',
         width: '50%',
+        'border-radius' : '2rem',
         'font-size': '20px',
         cursor: 'pointer',
         border: '3px solid maroon'
@@ -88,6 +91,7 @@ export function decorateForB1(){
     Object.assign(document.getElementById('string').style, {
         width: '30vw',
         background: 'pink',
+        height: '2.5em',
         margin: 'auto',
         'text-align': 'center',
         'font-size': '18px',

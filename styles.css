@@ -1,12 +1,24 @@
 body{
+    justify-content: center;
+    text-align: center;
     background: black;
     color: white;
 }
 
+form{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    grid-template-columns: 40% 30%;
+}
+
 #main-display-2{
-    height: 30vh;
+    margin: auto;
+    height: 40vh;
+    width: 60vw;
     background: orange;
     padding: 20px;
+    border-radius: 10%;
     font-size: 26px;
     display: grid;
     gap: 3px;
@@ -25,50 +37,3 @@ body{
     font-size: 1.75rem;
 
 }
-
-/* #display-area{
-    
-} */
-/* 
-#inputLabel{
-    display: grid;
-    justify-content: center;
-    gap: 20px;
-    font-size: 18px;
-    font-weight: 600;
-} */
-
-/* #string{
-    width: 30vw;
-    background: pink;
-    margin: auto;
-    text-align: center;
-    font-size: 18px;
-    padding: 1px; */
-
-/* } 
-#check-btn{
-     margin: auto;
-    background: black;
-    color: red;
-    width: 50%;
-    font-size: 20px;
-    cursor: pointer;
-    border: 3px solid maroon; */
-/* }
-#check-btn:hover{
-    background: maroon;
-    color: white;
-}
-#check-btn:active{
-    background: lightgreen;
-    color: blue;
-    font-weight: 600;
-}
-
-#display-text{
-    background: yellow;
-    color: green;
-    font-weight: 700;
-    text-align: center;
-} */

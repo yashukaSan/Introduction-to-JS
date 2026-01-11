@@ -67,6 +67,8 @@ export function generate_random(from, to){
 export function decorateElements4(){
     Object.assign(area.style, {
         background: 'lightgreen',
+        width: '60vw',
+        margin: 'auto',
         display: 'grid',
         padding: '5px',
         'border-radius': '10vh',
@@ -75,6 +77,8 @@ export function decorateElements4(){
     Object.assign(document.getElementById('input-area').style, {
         background: 'linear-gradient(38deg, #00dd00, #0d6d6d, #4dc90a',
         display: 'grid',
+        width: '60vw',
+        margin: 'auto',
         'justify-content': 'center',
         'border-radius': '10vh 10vh 0 0',
         'align-items': 'center',
@@ -131,8 +135,16 @@ export function decorateElements4(){
     Object.assign(document.getElementById('lower-display').style, {
         background: 'linear-gradient(128deg, #00dd00, #0d6d6d, #44c90a)',
         margin: '0',
+        width: '60vw',
+        margin: 'auto',
         'border-radius': '0 0 10vh 10vh',
         display: 'grid',
         'text-align': 'center'
     });
+    Object.assign(document.getElementById('pre-assign-text').style,{
+        width: '60vw',
+        margin: 'auto',
+        'font-size': '2rem',
+        padding: '20px'
+    })
 }
