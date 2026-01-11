@@ -1,6 +1,7 @@
 import { area, clearArea, decorateForB1, assignElements, checker } from './components/palindrome.js';
 import { removeElements3, assignElements3, decorate_area_3, char_checker } from './components/vowels-consonants-count.js';
 import { assignElements4, removeElements4, generate_random, decorateElements4 } from './components/randomNo.js';
+import { assignElement2, decorate_2, clickOperations } from './components/calculator.js';
 
 let isB1Render = false;
 let isB2Render = false;
@@ -75,16 +76,22 @@ btn4.addEventListener('click', ()=>{
 });
 
 
-// btn4.addEventListener('click', () => {
-//     if (!isB4Render){clearDiplsay();assignElements();}
+btn2.addEventListener('click', () => {
+    if (!isB2Render){
+        //clearDiplsay();
+        assignElement2();
+        clickOperations();
+        decorate_2();
+    }
 
-//     isB4Render = true;
-//     const checkBtn = document.getElementById('check-btn');
-//     checkBtn.addEventListener('click', () => {
-//         document.getElementById('display-text').textContent = checker(document.getElementById('string').value);
-//     });
 
-// });
+    isB2Render = true;
+    // const checkBtn = document.getElementById('check-btn');
+    // checkBtn.addEventListener('click', () => {
+    //     document.getElementById('display-text').textContent = checker(document.getElementById('string').value);
+    // });
+
+});
 
 // window.onclick = () => {
     

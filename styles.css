@@ -3,6 +3,29 @@ body{
     color: white;
 }
 
+#main-display-2{
+    height: 30vh;
+    background: orange;
+    padding: 20px;
+    font-size: 26px;
+    display: grid;
+    gap: 3px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas: "out in in del"
+                "l-brac r-brac div mul"
+                'seven eight nine minus'
+                'four five six plus'
+                'one two three equal'
+                'ac zero point equal';
+    
+}
+#main-display-2 button{
+    background: tomato;
+    font-size: 1.75rem;
+
+}
+
 /* #display-area{
     
 } */
